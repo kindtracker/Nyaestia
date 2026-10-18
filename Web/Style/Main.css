@@ -3,5 +3,43 @@
 }
 
 body {
+  background: var(--Mantle);
+  height: 100%;
+}
+
+.Sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: 64px;
+  box-sizing: border-box;
   background: var(--Base);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.LauncherButton {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-color: transparent;
+  background-image: url("https://cdn.simpleicons.org/archlinux");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  filter: brightness(0) invert(0.92416);
+  cursor: pointer;
+}
+
+.PowerOffButton {
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  margin-top: auto;
+  background: transparent;
+  border: none;
+  color: var(--Text);
+  cursor: pointer;
 }

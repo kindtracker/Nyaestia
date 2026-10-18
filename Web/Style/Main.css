@@ -1,0 +1,7 @@
+* {
+  color: var(--TextWhite);
+}
+
+body {
+  background: var(--Base);
+}
